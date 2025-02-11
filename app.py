@@ -5,6 +5,16 @@ import numpy as np
 import matplotlib.pyplot as plt  
 import seaborn as sns  
 
+st.title("Quiz STA - Data Analysis")
+
+# Sidebar untuk nama kelompok
+st.sidebar.title("Team Member")
+st.sidebar.markdown("""
+- "Salsabila Hidayat"  
+- "Wijaya Putra Sochinibe Lahagu"
+- "Iren Samantha Priyani Zebua"
+""")
+
 # Load dataset
 file_path = "selamat.csv"
 df = pd.read_csv(file_path, header=None) 
